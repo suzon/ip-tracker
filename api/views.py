@@ -16,3 +16,8 @@ def ip_tracker(request):
             public=is_routable
         )
         return Response(data, status=200)
+    else:
+        data = dict(
+            details='Bad request'
+        )
+        return Response(data, status=400)
