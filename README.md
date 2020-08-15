@@ -79,7 +79,8 @@ Now the server is accessible with 8000 port
 **Basic configuration**:
 
 Once you’ve got mod_wsgi installed and activated, edit your Apache server’s ```httpd.conf``` file and add the following. For more information follow the official document: https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/
-System tools:
+
+Update System:
 
 ```
 ~/$ sudo apt-get apache2.2-common apache2-mpm-prefork apache2-utils libexpat1
