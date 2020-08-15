@@ -98,5 +98,5 @@ System tools:
 * Enable the new host
 * restart ```apache2``` web server
 
-Now this application is accessible in 9092 port 
+Now this application is accessible with 9092 port 
 Done! 
