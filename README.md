@@ -53,7 +53,7 @@ All setup has been done! Now we need to run the project
 Output will show, requirement already satisfied with  package versions
 
 ../ip-tracker$ python3.8 manage.py migrate
- 
+../ip-tracker$ deactivate 
 ``` 
 
 ##### ```run``` the project: #####
