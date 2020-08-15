@@ -60,8 +60,9 @@ Django version 2.2.14, using settings 'settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
+Now the server is accessible with 8000 port
 
-#### `Django project can ``run``` in several ways, here we will discuss about two way:
+####Django project can ```run``` in several ways, here we will discuss about two way:
 * run with runserver (already discussed above)
 * run with apache & mod_wsgi
 
@@ -96,5 +97,6 @@ System tools:
 ```
 * Enable the new host
 * restart ```apache2``` web server
+
 Now this application is accessible in 9092 port 
 Done! 
