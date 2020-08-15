@@ -16,6 +16,7 @@ Python 3.8.0
 
 ##### Install pip (PIP is a package manager for Python packages, or modules if you like)
 Official documentation: https://pip.pypa.io/en/stable/reference/pip_install/
+
 ```
 ~/$ sudo apt update
 ~/$ sudo apt install python3-pip
@@ -24,8 +25,10 @@ Official documentation: https://pip.pypa.io/en/stable/reference/pip_install/
 Output:
 pip 20.2.2 from /usr/local/lib/python3.8/dist-packages/pip (python 3.8)
 ```
+
 #### Installation of ```virtualenv``` 
 Official documentation: https://virtualenv.pypa.io/en/latest/
+
 ```
 ~/# pip3 install virtualenv
 ```
@@ -33,10 +36,13 @@ Official documentation: https://virtualenv.pypa.io/en/latest/
 All setup has been done! Now we need to run the project
 1. ```git clone <url>``` from remote git repository and/or copy the project
 2. Go to project directory and create a virtual environment to run the project
+
 ```
 ../ip-tracker$ virtualenv venv
 ```
+
 3. Now activate the virtual environment by following instructions 
+
 ```
 ../ip-tracker$ source venv/bin/activate 
 (venv) ../ip-tracker$ pip3 install -r requirements.txt
@@ -45,11 +51,14 @@ Output will show, requirement already satisfied with  package versions
 ../ip-tracker$ python3.8 manage.py migrate
  
 ``` 
+
 #### ```run``` the project:
 ```
 ../ip-tracker$ python manage.py runserver
 ```
+
 Output:
+
 ```
 Watching for file changes with StatReloader
 Performing system checks...
@@ -67,9 +76,11 @@ Now the server is accessible with 8000 port
 * run with apache & mod_wsgi
 
 #### Django project run with apache & mod_wsgi
-##### Basic configuration
+**Basic configuration**:
+
 Once you’ve got mod_wsgi installed and activated, edit your Apache server’s ```httpd.conf``` file and add the following. For more information follow the official document: https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/
 System tools:
+
 ```
 ~/$ sudo apt-get apache2.2-common apache2-mpm-prefork apache2-utils libexpat1
 ~/$ sudo apt-get install libapache2-mod-wsgi-py3
@@ -95,8 +106,9 @@ System tools:
     CustomLog /var/www/logs/custom.log combined
 </VirtualHost>
 ```
+
 * Enable the new host
-* restart ```apache2``` web server
+* Restart ```apache2``` web server
 
 Now this application is accessible with 9092 port 
 Done! 
