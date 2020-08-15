@@ -14,7 +14,7 @@ Output:
 Python 3.8.0
 ````
 
-##### Install pip (PIP is a package manager for Python packages, or modules if you like)
+#####Install pip (PIP is a package manager for Python packages, or modules if you like)
 Official documentation: https://pip.pypa.io/en/stable/reference/pip_install/
 
 ```
@@ -26,7 +26,7 @@ Output:
 pip 20.2.2 from /usr/local/lib/python3.8/dist-packages/pip (python 3.8)
 ```
 
-#### Installation of ```virtualenv``` 
+####Installation of ```virtualenv``` 
 Official documentation: https://virtualenv.pypa.io/en/latest/
 
 ```
@@ -52,7 +52,7 @@ Output will show, requirement already satisfied with  package versions
  
 ``` 
 
-#### ```run``` the project:
+####```run``` the project:
 ```
 ../ip-tracker$ python manage.py runserver
 ```
@@ -75,7 +75,7 @@ Now the server is accessible with 8000 port
 * run with runserver (already discussed above)
 * run with apache & mod_wsgi
 
-#### Django project run with apache & mod_wsgi
+####Django project run with apache & mod_wsgi
 **Basic configuration**:
 
 Once you’ve got mod_wsgi installed and activated, edit your Apache server’s ```httpd.conf``` file and add the following. For more information follow the official document: https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/
